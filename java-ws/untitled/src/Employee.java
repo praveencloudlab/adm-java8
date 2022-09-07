@@ -111,7 +111,7 @@ public class Employee {
         System.out.println(e1.mgrName);
         System.out.println(e1.companyName);
         System.out.println("==========================");
-        e1.mgrName="Prem";
+        //e1.mgrName="Prem"; // invoking static data using object is not recamended
         System.out.println(e2.mgrName);
         System.out.println(e2.companyName);
 
@@ -130,7 +130,7 @@ public class Employee {
         // imp note
         // local variables must be initilized before use them.
         // local variables never have default data
-        int maxAge; // local variable
+         int maxAge; // local variable
        // System.out.println(maxAge); // error
 
 
