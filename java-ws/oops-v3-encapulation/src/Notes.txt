@@ -1,0 +1,20 @@
+Notes
+---------------
+access modifers
+    -> public
+    -> protected
+    -> default
+    -> private
+
+    public: public data is accessible to all the classes from any package
+    protected: protected data accessible to the class of same package,
+               and other package subclass objects
+    default: default data  accessible to the class of same package.
+    private: private is accessible with in the same class only
+
+
+    package
+    ---------
+    package is a folder / directory wich lets you to organize java classes as per modules
+
+

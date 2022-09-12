@@ -1,6 +1,7 @@
+//void f2(){}// function
 public class Use {
 
-      static void f3(){
+      static void f3(){ // method
           System.out.println("Use class f3 method");
       }
 

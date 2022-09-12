@@ -1,4 +1,4 @@
-public class Employee {
+public  class Employee { // concrete class
     /*
     What class contains?
     ----------------------
@@ -18,6 +18,27 @@ public class Employee {
      2. static variables
      3. final variables
      4. enumerations (enum)
+
+
+     variables
+     ------------
+     1. instance : unique copy for each object
+     2. static   : common copy for all objects
+     3. final // const...
+     4. enums // fixed const
+
+     methods
+     ----------------------
+          1. instance methods
+          2. static methods
+          3. final methods : can not be overridden in sub class
+          4. native methods // other than java (i.e c and cpp code)
+
+      types of classes
+      ------------------
+      1. concrete class
+      2. abstract class // we can not create an object to this class
+      3. final class // this class can not be inherited
 
      instance data
      -----------------
@@ -54,6 +75,9 @@ public class Employee {
          from the same class
       -> all static and non-static methods required objects to access instance data
           from other classes
+
+
+
 
 
 

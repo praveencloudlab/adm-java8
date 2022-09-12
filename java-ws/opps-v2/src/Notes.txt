@@ -1,0 +1,7 @@
+Object : its blueprint of a class
+ -> identity: variable
+        String animal_name : variable
+ -> state  : data / information : Bird
+ -> actions : methods
+               fly : method
+
