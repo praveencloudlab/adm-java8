@@ -1,0 +1,35 @@
+Packages
+-------------
+-> package logically organize classes into
+   modules
+-> so that classes can be accessibe/modified
+   module wise.
+-> can also provide visibility scopes
+   to the classes in the package
+-> package keyword must be the fist line
+   in the java class
+
+Ex: com, com.cts, com.cts.ecart
+    com.cts.ecart.service (non db)
+    com.cts.ecart.dao (only db)
+
+import p1.*; // only imports all classes of p1 package only
+import p1.p2.*;//only imports all classes of p2 package only
+import p1.p2.p3.*;//imports only classes of p3 package only
+
+How can you make sure a class is fully encapulated?
+-> define all properties as private
+-> create setters and getters as public
+    -> setter : takes argument. but will not return
+    -> getter : will not take argument, but will return value
+
+    private int empId;
+    // setter ...
+    public void setEmpId(int empId){
+        this.empId=empId
+    }
+    //getter
+    public int getEmpId(){
+    return empId
+    }
+
